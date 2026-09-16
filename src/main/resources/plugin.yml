@@ -1,0 +1,19 @@
+name: LawOrder
+version: 1.0.0
+main: com.laworder.LawOrderPlugin
+api-version: '1.20'
+author: Zangetsurofl
+depend: []
+softdepend: [Vault]
+commands:
+  duty: {description: Toggle police duty}
+  wanted: {description: Set wanted level}
+  arrest: {description: Arrest a wanted player}
+  fine: {description: Fine a player}
+  crime: {description: Commit a crime}
+  hide: {description: Hide identity}
+  gang: {description: Gang management}
+permissions:
+  laworder.police: {default: false}
+  laworder.criminal: {default: false}
+  laworder.admin: {default: op}
